@@ -79,6 +79,164 @@
         border: double 5px  #220033  ;
     
        }
+       @media screen and (max-width: 600px) 
+        {
+            .container {
+            display: flex;
+            flex-direction: column;
+        }
+            .laptop-card
+         {
+            width: 300px;
+            height: 300px;
+            background-color: #f7f2f2;
+            border: solid 1px #800000;
+            margin: 2px 4px;
+            padding: 2px;
+            border-radius: 3px;
+            box-shadow: -8px -8px 4px grey;
+            display: flex;
+            flex-direction: column;
+            
+        }
+       h3{
+        color:#220033;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 7px;
+       }
+       h4{
+        font-size: 8px;
+       }
+       .laptop-img {
+            height:100px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: black;
+            margin-left:20px;
+        }
+        .btn{
+        width: 80px;
+        height: 25px;
+        padding:1px 1px;
+        background-color: #deaaf8;
+        color: #220033;
+        margin-left:70px;
+        border-radius: 5px;
+        border: double 1px  #220033;
+    
+       }
+
+      }
+
+      /* Tablet Devices */
+
+      @media screen and (min-width: 600px) and (max-width: 768px)
+     { 
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .laptop-card
+         {
+            width: 400px;
+            height: 360px;
+            background-color: #f7f2f2;
+            border: solid 2px #800000;
+            margin: 4px 8px;
+            padding: 6px;
+            border-radius: 3px;
+            box-shadow: -8px -8px 4px grey;
+        
+        }
+       h3{
+        color:#220033;
+        text-align: center;
+        margin-right: 50px;
+        font-size: 10px;
+       }
+       h4{
+        font-size: 10px;
+       }
+       .laptop-img {
+            height:150px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: black;
+            margin-left: 80px;
+        }
+        .btn{
+        width: 100px;
+        height: 30px;
+        padding:1px 1px;
+        background-color: #deaaf8;
+        color: #220033;
+        margin-left:120px;
+        border-radius: 5px;
+        border: double 3px  #220033;
+    
+       }       
+      }
+
+      /* Dekstop device */
+
+      @media screen and (min-width: 769px) and (max-width: 992px) 
+      {
+        
+        .laptop-card {
+            width: 400px;
+            height: 550px;
+            background-color: #f7f2f2;
+            border: solid 1px #800000;
+            margin: 10px 20px;
+            padding: 10px;
+            border-radius: 14px;
+            box-shadow: -8px -8px 4px grey;
+        
+        }
+        .laptop-card:hover{
+            width: 450;
+        }
+        .laptop-img {
+            height: 260px;
+            width: 350px;
+            padding: 10px;
+            border-radius: 60px;
+            box-shadow: black;
+        }
+
+       h1{
+        text-shadow: 2px 2px;
+        color:#800000;
+        display: flex;
+        margin: 0px 13px;
+        padding: 10px;
+       
+       }
+       h3{
+        text-shadow: 1px 1px;
+        color:#220033;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 15px;
+       }
+       h4{
+        font-size: 15px;
+       }
+       .btn{
+        width: 120px;
+        height: 50px;
+        padding:10px 20px;
+        background-color: #deaaf8;
+        color: #220033;
+        margin-left: 120px;
+        border-radius: 30px;
+        border: double 5px  #220033;
+    
+       }
+      }
        
     </style>
 </head>
